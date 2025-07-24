@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pseudo-classes em Ação</title>
+  <style>
+    /* :hover no botão */
+    button:hover {
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+    }
+
+    /* :active no botão */
+    button:active {
+      transform: scale(0.95);
+    }
+
+    /* :focus no input */
+    input:focus {
+      border: 2px solid blue;
+      outline: none;
+    }
+
+    /* :first-child na lista */
+    ul li:first-child {
+      color: red;
+      font-weight: bold;
+    }
+
+    /* estilo base só pra deixar bonito */
+    body {
+      font-family: sans-serif;
+      padding: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    input {
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    ul {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Pseudo-classes em Ação</h2>
+
+  <!-- Campo com :focus -->
+  <label for="nome">Nome:</label>
+  <input type="text" id="nome" placeholder="Digite seu nome">
+
+  <!-- Botão com :hover e :active -->
+  <br><br>
+  <button>Enviar</button>
+
+  <!-- Lista com :first-child -->
+  <ul>
+    <li>Primeiro item (fica vermelho)</li>
+    <li>Segundo item</li>
+    <li>Terceiro item</li>
+  </ul>
+
+</body>
+</html>

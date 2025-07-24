@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 07</title>
+    <!--<style>
+        picture {
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+    </style> -->
+</head>
+<body>
+    <h1 style="text-align: center;">Imagem flexível</h1>
+    <p style="text-align: center;">você está vendo a imagem completa? Experimente ampliar o tamanho do seu navegador para aproveitar melhor a experiência. &#x1F92F</p>
+
+    <picture >
+        <source media="(max-width: 700px)" srcset="imagem/imagem-p.jpeg" type="image/jpeg">
+        <source media="(max-width: 1200px)" srcset="imagem/imagem-m.jpeg" type="image/jpeg"> 
+        <img src="imagem/image-full.jpg" alt="img/jpeg" style="display: block; margin: auto;">
+    </picture>
+</body>
+</html>

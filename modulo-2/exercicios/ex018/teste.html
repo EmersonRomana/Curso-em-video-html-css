@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de Padding e Margin</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+
+    .sem-espaco {
+      background-color: #ccc;
+      color: #000;
+    }
+
+    .com-padding {
+      background-color: #ffcccb;
+      padding: 20px;
+      color: #000;
+    }
+
+    .com-margin {
+      background-color: #add8e6;
+      margin: 30px;
+      color: #000;
+    }
+
+    .com-padding-margin {
+      background-color: #90ee90;
+      padding: 20px;
+      margin: 30px;
+      color: #000;
+    }
+
+    p {
+      border: 1px dashed #000;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Exemplo visual de Padding e Margin</h2>
+
+  <p class="sem-espaco">
+    🟥 <strong>Sem padding nem margin:</strong><br>
+    O texto está grudado nas bordas.
+  </p>
+
+  <p class="com-padding">
+    🟧 <strong>Com padding:</strong><br>
+    O texto tem espaçamento interno (20px).
+  </p>
+
+  <p class="com-margin">
+    🟦 <strong>Com margin:</strong><br>
+    O bloco inteiro está afastado da borda da página (30px), mas o texto continua grudado nas bordas.
+  </p>
+
+  <p class="com-padding-margin">
+    🟩 <strong>Com padding e margin:</strong><br>
+    O bloco está afastado da página (margin) e o texto está afastado das bordas internas (padding).
+  </p>
+
+</body>
+</html>
