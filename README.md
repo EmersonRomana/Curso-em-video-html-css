@@ -67,6 +67,10 @@ O último módulo aborda as ferramentas mais modernas e poderosas para a criaç�
 -   Projetos práticos que consolidam o aprendizado dos cinco módulos.
 
 ---
+## Desafios de módulos**
+Em cada módulo foi criado um desafio de criação de página web, onde se aplica tudo no módulo para página web. E aqui está os desafios: 
+- **Módulo 1 :** <a href="https://emersonromana.github.io/Curso-em-video-html-css/modulo-1/desafios/desafio09/index.html" target="_blank">Criar um site de vídeos</a>
+- **Módulo 2 :** <a href="https://emersonromana.github.io/Curso-em-video-html-css/modulo-2/desafios/ds10/index.html" target="_blank">Criar uma página com a história da criação da log Android</a>
 
 ## 🎓 Agradecimentos
 
