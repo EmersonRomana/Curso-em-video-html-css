@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+
+    <style>
+        #container {
+            background-image: url('img/target001.png');
+            background-size: 100% 100%;
+
+            position: relative;  /* Para usar o relativo na caixa que está dentro da caixa container, preciso mudar a posição dessa caixa para relativo. */
+            height: 96vh;
+            padding: 10px;
+            background-color: purple;
+        }
+
+        #conteudo {
+            background-image: url('img/target001.png');
+            background-size: 100% 100%;
+
+            position: absolute; /* Para usar as propriedades de deslocamento da caixa de conteúdo */
+            height: 200px;
+            width: 400px;
+            background-color: yellow;
+
+
+            /* Depois de usar o absolute, foi concedido de usar essas duas propriedades "left: ;" e "top" onde posso deslocar livremente usando elas e o transforme para deixar onde quero dentro do container.  */
+            left: 50%; 
+            top: 50%;
+
+            transform: translate(-50%, -50%); /* Usado para mover a minha caixa livremente dentro do conteúdo, com esse sentença eu posso deslocar de forma mais objetiva usando o eixo central da minha caixa.  */
+        }
+    </style>
+
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>  
+</body>
+</html>
