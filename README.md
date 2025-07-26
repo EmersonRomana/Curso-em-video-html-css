@@ -71,6 +71,7 @@ O último módulo aborda as ferramentas mais modernas e poderosas para a criaç�
 Em cada módulo foi criado um desafio de criação de página web, onde se aplica tudo no módulo para página web. E aqui está os desafios: 
 - **Módulo 1 :** <a href="https://emersonromana.github.io/Curso-em-video-html-css/modulo-1/desafios/desafio09/index.html" target="_blank">Criar um site de vídeos</a>
 - **Módulo 2 :** <a href="https://emersonromana.github.io/Curso-em-video-html-css/modulo-2/desafios/ds10/index.html" target="_blank">Criar uma página com a história da criação da log Android</a>
+- **Módulo 3 :** <a href="https://emersonromana.github.io/desafio-cordel/" target="_blank">Este projeto tem como objetivo colocar em prática os conhecimentos adquiridos sobre semântica HTML, estilização com CSS e uso de fontes externas.</a>
 
 ## 🎓 Agradecimentos
 
